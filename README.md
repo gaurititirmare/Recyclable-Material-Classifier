@@ -8,3 +8,7 @@ A simple but effective deep learning-powered tool to classify everyday materials
 - Lightweight and easy to deploy via a standalone Python app.
 
 ## File Structure
+Recyclable-Material-Classifier/
+├── app.py # Streamlit-powered app for image uploads and predictions
+├── RecylableMaterials.py # Model training and fine-tuning script
+└── recyclable_material_classifier.h5 # Pre-trained model weights
