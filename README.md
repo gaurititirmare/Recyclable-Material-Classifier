@@ -18,14 +18,15 @@ A deep learning–powered web app that classifies materials (plastic, paper, gla
 - Matplotlib – Training visualization
 
 ## Project Structure
-Recyclable-Material-Classifier/
-│
-├── app.py # Streamlit app for predictions
-├── RecylableMaterials.py # Model training script
-├── recyclable_material_classifier.h5 # Trained model
-├── class_indices.json # Class labels mapping
-├── dataset/ # (Not included) Training/Validation/Test dataset
-└── README.md # Project documentation
+| File / Folder                  | Description                                |
+|--------------------------------|--------------------------------------------|
+| app.py                         | Streamlit app for predictions              |
+| RecylableMaterials.py          | Model training script                      |
+| recyclable_material_classifier.h5 | Trained model                          |
+| class_indices.json             | Class labels mapping                       |
+| dataset/                       | (Not included) Training/Validation/Test dataset |
+| README.md                      | Project documentation                      |
+
 
 ## Setup & Installation
 1. Clone this repository:
