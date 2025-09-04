@@ -1,14 +1,14 @@
 # ♻️ Recyclable Material Classifier
 A deep learning–powered web app that classifies materials (plastic, paper, glass, metal, etc.) and predicts whether they are recyclable or not. Built using TensorFlow (MobileNetV2) and deployed with Streamlit.
 
-## 🚀 Features
+## Features
 - Upload an image of a material.
 - Predicts the material type using a trained CNN (MobileNetV2 backbone).
 - Displays recyclability status (Recyclable / Non-Recyclable).
 - Provides confidence score for predictions.
 - Interactive Streamlit web interface.
 
-## 🛠️ Tech Stack
+## Tech Stack
 - Python 3.8+
 - TensorFlow / Keras – Model training & inference
 - MobileNetV2 – Pretrained CNN backbone
@@ -17,7 +17,7 @@ A deep learning–powered web app that classifies materials (plastic, paper, gla
 - NumPy – Data preprocessing
 - Matplotlib – Training visualization
 
-## 📂 Project Structure
+## Project Structure
 ├── app.py                        # Streamlit app for predictions
 ├── RecylableMaterials.py         # Model training script
 ├── recyclable_material_classifier.h5   # Trained model
@@ -25,7 +25,7 @@ A deep learning–powered web app that classifies materials (plastic, paper, gla
 ├── dataset/                      # (Not included) Training/Validation/Test dataset
 └── README.md                     # Project documentation
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 1. Clone this repository:
    git clone https://github.com/gaurititirmare/Recyclable-Material-Classifier.git
    cd Recyclable-Material-Classifier
@@ -42,7 +42,7 @@ A deep learning–powered web app that classifies materials (plastic, paper, gla
 4. Run the Streamlit app:
    streamlit run app.py
 
-## 📊 Training the Model
+## Training the Model
 If you want to retrain the model:
 1. Place your dataset inside the dataset/ folder with subfolders:
    dataset/
@@ -57,14 +57,14 @@ If you want to retrain the model:
 3. The trained model will be saved as:
    recyclable_material_classifier.h5
 
-## 📸 Example Usage
+## Example Usage
 - Upload an image of a plastic bottle.
 - The app predicts:
   - Material Type: Plastic
   - Recyclable: Yes ♻️
   - Confidence: 96.3%
 
-## 📂 Recommended Datasets
+## Recommended Datasets
 Here are some great datasets you can use to train or retrain this project:
 1. Recyclable & Household Waste Classification (~15,000 images)
    https://www.kaggle.com/datasets/alistairking/recyclable-and-household-waste-classification
@@ -79,13 +79,13 @@ Here are some great datasets you can use to train or retrain this project:
 6. RealWaste Dataset (~4,752 real-world images, 9 categories)
    https://github.com/AgaMiko/waste-datasets-review
 
-💡 Start with Kaggle classification datasets for training, then expand with RealWaste or DWSD for real-world robustness.
+Start with Kaggle classification datasets for training, then expand with RealWaste or DWSD for real-world robustness.
 
-## 🌍 Motivation
+## Motivation
 This project promotes sustainability by helping identify recyclable materials using AI. It can be extended to smart waste-management systems, recycling centers, or educational tools.
 
-## 🤝 Contributing
+## Contributing
 Contributions are welcome! Feel free to fork this repo, create a new branch, and submit a pull request.
 
-## 📜 License
+## License
 This project is licensed under the MIT License – see the LICENSE file for details.
