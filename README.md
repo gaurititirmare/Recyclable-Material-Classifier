@@ -24,6 +24,7 @@ Recyclable-Material-Classifier/
 2. **Set up a virtual environment**
    ```bash
    python -m venv venv
+   ```
 source venv/bin/activate   # macOS/Linux
 # or
 venv\Scripts\activate      # Windows
@@ -33,6 +34,6 @@ venv\Scripts\activate      # Windows
    pip install -r requirements.txt
    ```
 4. **Run the app**
-   ```
+   ```bash
    streamlit run app.py
 ```
